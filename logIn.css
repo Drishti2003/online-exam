@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+ }
+ html, body {
+    margin: 0;
+    padding: 0;
+ }
+ form {
+    width: 300px;
+ }
+ .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    padding-top: 0;
+    width:500px;
+    margin-left: 470px;
+    background:#1d216b;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+ }
+ form input[type="text"],
+ form input[type="submit"],
+ form input[type="password"],
+ form input[type="email"],
+ form input[type="tel"]{
+    width:100%
+ }
+ .input-cnt {
+    display: flex; /* display the icon and the input in a line */
+    margin-bottom: 16px;
+ }
+ .input-cnt:last-child {
+    margin-top: 40px;
+    margin-bottom: 0px;
+ }
+
+ /* style the inputs */
+ .input-cnt > input[type="text"], .input-cnt > input[type="password"], .input-cnt > input[type="email"], .input-cnt > input[type="tel"] {
+    outline: none;
+    border: none;
+    padding: 12px;
+    border: 1px solid lightgrey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   }
+ /* style the submit button */
+ .input-cnt > input[type="submit"] {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 100%;
+    /* margin: 0 auto; */   /* for centering sign up button*/
+    font-size: 105%;
+    padding: 8px;
+    padding-left: 6px;
+    color :#1d216b;
+    background: white;
+    transition-duration: .5s;
+    font-family: Arial, Helvetica, sans-serif;
+
+ }
+ /* add a hover effect for the submit button */
+ .input-cnt > input[type="submit"]:hover {
+    color: white;
+    background: #1d216b;
+ }
+
+ /* for back button return to homepage */
+ #homepage{
+   border: none;
+    border-radius: 20px;
+    outline: none;
+    width: 100%;
+    /* margin: 0 auto; */   /* for centering sign up button*/
+    font-size: 105%;
+    padding: 8px;
+    color: #1d216b;
+    background: white;
+    transition-duration: .5s;
+    margin-left: 15px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 170px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ #homepage:hover{
+   color: white;
+   background: #1d216b;
+ }
+/* back button finish */
